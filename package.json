@@ -8,9 +8,9 @@
     "edge",
     "storage"
   ],
-  "homepage": "https://github.com/torres-developer/CFDB_API.ts#readme",
+  "homepage": "https://github.com/torres-developer/cf-db-api.ts#readme",
   "bugs": {
-    "url": "https://github.com/torres-developer/CFDB_API.ts/issues"
+    "url": "https://github.com/torres-developer/cf-db-api.ts/issues"
   },
   "license": "GPL-3.0-or-later",
   "contributors": [
@@ -23,7 +23,7 @@
   "main": "./dist/src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/torres-developer/CFDB_API.ts"
+    "url": "https://github.com/torres-developer/cf-db-api.ts"
   },
   "scripts": {
     "build": "tsc"
