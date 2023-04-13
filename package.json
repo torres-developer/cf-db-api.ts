@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "cf-db-api.ts",
+  "version": "0.1.0",
+  "description": "API to easily use Cloudflare Workers storage options via HTTP requests",
+  "keywords": [
+    "cloudflare",
+    "edge",
+    "storage"
+  ],
+  "homepage": "https://github.com/torres-developer/CFDB_API.ts#readme",
+  "bugs": {
+    "url": "https://github.com/torres-developer/CFDB_API.ts/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "contributors": [
+    {
+      "name": "João Augusto Torres",
+      "email": "torres.dev@disroot.org",
+      "url": "https://github.com/torres-developer/"
+    }
+  ],
+  "main": "./dist/src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torres-developer/CFDB_API.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "typescript": "^5.0.4"
+  },
+  "types": "./dist/src/index.d.ts",
+  "readme": "./README.md",
+  "module": "./dist/src/index.js",
+  "packageManager": "pnpm@8.2.0"
+}
