@@ -6,9 +6,6 @@
 
 /dist
 
-wrangler.toml
-/.wrangler
-
 # Logs
 logs
 *.log
