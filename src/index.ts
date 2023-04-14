@@ -1,9 +1,5 @@
 "use strict";
 
-/// <reference path="Storage.ts" />
-/// <reference path="KV.ts" />
+export { Database, type Table } from "./storage/Storage";
 
-import Database from "./Database";
-export type { Table } from "./Database";
-export { Database };
-export type { Storage } from "./Storage";
+export { KV } from "./storage/KV";

@@ -1,12 +1,12 @@
 "use strict";
 
-import { segments } from "./utils";
+import { segments } from "../utils";
 
 export interface Table {
   fetch(req: Request, needle: number, segments?: string[]): Promise<Response>;
 }
 
-export default class Database<T extends Table> implements Table {
+export class Database<T extends Table> implements Table {
   #tables: Map<string, T> | undefined;
 
   constructor(tables?: Map<string, T> | [string, T][]) {
