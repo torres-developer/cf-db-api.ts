@@ -6,4 +6,4 @@
 import Database from "./Database";
 export type { Table } from "./Database";
 export { Database };
-export type { Storage } from "./Storage" ;
+export type { Storage } from "./Storage";
