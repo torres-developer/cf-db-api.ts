@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "cf-db-api.ts",
+  "name": "cf-db-api",
   "version": "0.1.1",
   "description": "API to easily use Cloudflare Workers storage options via HTTP requests",
   "keywords": [
